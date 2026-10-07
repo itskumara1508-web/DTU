@@ -1,0 +1,12 @@
+# SafetyStatus.msg
+builtin_interfaces/Time stamp
+bool system_armed
+bool mechanical_estop_tripped
+bool wireless_estop_tripped
+bool software_estop_tripped
+bool wireless_link_alive
+int16 rssi_dbm
+uint32 heartbeat_missed_count
+bool motor_power_enabled
+string fault_code
+

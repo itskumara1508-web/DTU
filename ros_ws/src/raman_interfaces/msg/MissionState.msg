@@ -1,0 +1,10 @@
+# MissionState.msg
+builtin_interfaces/Time stamp
+string current_state
+string previous_state
+uint8 active_waypoint_index
+uint8 total_waypoints
+float32 distance_to_waypoint
+bool safe_corridor_active
+string status_message
+

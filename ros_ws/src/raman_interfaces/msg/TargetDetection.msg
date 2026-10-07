@@ -1,0 +1,13 @@
+# TargetDetection.msg
+builtin_interfaces/Time stamp
+bool target_found
+string target_class
+float32 confidence
+float32 bounding_box_x
+float32 bounding_box_y
+float32 bounding_box_w
+float32 bounding_box_h
+geometry_msgs/Point target_3d_position
+bool laser_lock_achieved
+float32 laser_elapsed_sec
+
